@@ -745,3 +745,79 @@ html{
     text-decoration: none !important;
     box-shadow: 0 8px 20px rgba(0,0,0,.25) !important;
 }
+/* ==========================
+Footer
+========================== */
+
+.footer-section{
+
+background:#0B2C5F;
+
+color:#fff;
+
+padding:70px 0 25px;
+
+}
+
+.footer-section h4,
+.footer-section h5{
+
+margin-bottom:20px;
+
+font-weight:700;
+
+}
+
+.footer-section p{
+
+color:#d8d8d8;
+
+line-height:1.8;
+
+}
+
+.footer-section ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.footer-section ul li{
+
+margin-bottom:12px;
+
+}
+
+.footer-section ul li a{
+
+color:#d8d8d8;
+
+transition:.3s;
+
+}
+
+.footer-section ul li a:hover{
+
+color:#E53935;
+
+padding-left:6px;
+
+}
+
+.footer-section hr{
+
+border-color:rgba(255,255,255,.2);
+
+margin:30px 0;
+
+}
+
+.footer-section .text-center{
+
+color:#d8d8d8;
+
+font-size:15px;
+
+}
