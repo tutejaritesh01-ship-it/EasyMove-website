@@ -129,7 +129,7 @@ Hero Section
 }
 .hero h1{
 
-font-size:68px;
+font-size:44px;
 font-weight:800;
 line-height:1.1;
 
@@ -733,7 +733,7 @@ html{
 
 .call-float{
     position: fixed !important;
-    bottom: 40px !important;
+    bottom: 60px !important;
     right: 20px !important;
     width: 55px !important;
     height: 55px !important;
