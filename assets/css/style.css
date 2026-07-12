@@ -125,6 +125,7 @@ Hero Section
     max-height:500px;
     width:100%;
     object-fit:cover;
+    
 }
 .hero h1{
 
@@ -278,6 +279,7 @@ transform:translateY(0px);
     height:260px;
     border:1px solid rgba(0,0,0,.05);
 }
+
 
 .service-card i{
     font-size:42px;
@@ -531,7 +533,6 @@ CTA SECTION
     gap:20px;
 
     flex-wrap:wrap;
-
 }
 
 .cta-buttons .btn{
@@ -732,7 +733,7 @@ html{
 
 .call-float{
     position: fixed !important;
-    bottom: 20px !important;
+    bottom: 40px !important;
     right: 20px !important;
     width: 55px !important;
     height: 55px !important;
@@ -747,7 +748,7 @@ html{
     z-index: 999999 !important;
     font-size: 28px !important;
     text-decoration: none !important;
-    box-shadow: 0 8px 20px rgba(0,0,0,.25) !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,.2) !important;
 }
 /* ==========================
 Footer
@@ -857,6 +858,8 @@ font-size:15px;
     }
 
     .service-card{
+        height:auto;
+        min-height:230px;
         padding:18px !important;
     }
 
@@ -878,5 +881,9 @@ font-size:15px;
         padding:10px 24px !important;
         font-size:15px !important;
     }
+    .hero img{
+    height:360px;
+    object-fit:cover;
+}
 
 }
