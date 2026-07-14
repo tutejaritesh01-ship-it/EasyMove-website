@@ -887,3 +887,48 @@ font-size:15px;
 }
 
 }
+/* Floating Estimator Button */
+
+.estimate-float{
+position:fixed;
+right:20px;
+bottom:150px;
+
+width:58px;
+height:58px;
+
+background:#ff9800;
+color:#fff;
+
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:24px;
+text-decoration:none;
+
+box-shadow:0 5px 15px rgba(0,0,0,.25);
+
+z-index:999;
+
+transition:.3s;
+}
+
+.estimate-float:hover{
+background:#e68900;
+width:185px;
+border-radius:35px;
+}
+
+.estimate-float span{
+display:none;
+margin-left:10px;
+font-size:15px;
+font-weight:600;
+white-space:nowrap;
+}
+
+.estimate-float:hover span{
+display:inline;
+}
